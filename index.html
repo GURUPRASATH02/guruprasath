@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guruprasath | Profile</title>
+    <link rel="shortcut icon" href="img/g.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Merienda:wght@300..900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome for hamburger icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- React will render everything inside this -->
+    <div id="react-container"></div>
+    <div class="intro">
+        <div class="contents">
+            <h1>Hi, I'm Guruprasath</h1>
+            <p id="dynamic-text"></p>
+        </div>
+        <div class="video-container">
+            <video autoplay muted playsinline controls>
+                <source src="intro ‑ Made with FlexClip.mp4" type="video/mp4">
+            </video>
+        </div>
+    </div>
+    <div class="about">
+        <div class="card">
+            <h3>Career Objective</h3>
+            <p>"Ambitious Computer Science student aiming to excel as a software developer.
+                Passionate about coding, problem-solving, and building innovative solutions
+                to contribute to technological advancements and drive organizational success."</p>
+        </div>
+        <div class="card">
+            <h3>Core Skills</h3>
+            <ul class="skills-list">
+                <li>HTML & CSS</li>
+                <li>React.js & Node.js</li>
+                <li>Kotlin & Flutter</li>
+                <li>PHP</li>
+                <li>Advanced Java(Servlet, JDBC, JavaFX, JSP)</li>
+                <li>Python</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Soft Skills</h3>
+            <ul class="skills-list">
+                <li>Team Collaboration</li>
+                <li>Problem-Solving</li>
+                <li>Leadership</li>
+                <li>Eager Leaner</li>
+            </ul>
+        </div>
+        <div class="card">
+            <h3>Project Done</h3>
+            <p class="project-counter">8</p>
+        </div>
+        <div class="card">
+            <h3>Addtional</h3>
+            <ul class="skills-list">
+                <li>Paper Published: <a href="">“Distributed Quantum Communication Channel via Quantum
+                        Teleportation”</a> (IJRPR).</li>
+                <li>Leadership: Conducted Flutter workshop for 50+ students; active Ex - NSS volunteer.</li>
+                <li>contribute work on two mobile app developed during acdamics </li>
+            </ul>
+        </div>
+        <div class="card">
+            <h1>Education</h1>
+            <h3>Bishop Heber College, Trichy</h3>
+            <ul class="skills-list">
+                <li>B.Sc. Computer Science | 7.96 CGPA</li>
+                <li>M.Sc. Computer Science | 7.57 CGPA</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="more-about-p"></div>
+    <div class="footer-container"></div>
+
+    <!-- React + Babel -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- React JSX App -->
+    <script type="text/babel" src="app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
